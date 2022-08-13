@@ -392,7 +392,7 @@
     text-shadow: 1px 1px 5px #ffe6e6;
    }
    .h5c{
-    font-size: small;
+    font-size: x-small;
     font-weight: 500;
 } 
 table{
@@ -450,6 +450,9 @@ table{
     font-weight: 600;
     width: 140px;
     font-size: small;
+  }
+  table{
+    font-size: xx-small;
   }
 
 }
