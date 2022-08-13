@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body class="main">
+    <!--nav-bar-->
+    <nav class="topnav shadow bg-light sticky-top nav1">
+        <p class="open-slide mt-2">
+            <a href="#" onclick="openSlideMenu()">
+                <svg width="30" height="30">
+                    <path d="M0,5 30,5" stroke="#6666ff" stroke-width="3"></path>
+                    <path d="M0,14 30,14" stroke="#6666ff" stroke-width="3"></path>
+                    <path d="M0,23 30,23" stroke="#6666ff" stroke-width="3"></path>
+                </svg>
+            </a>
+            </p>
+            <div class="head1">
+            <a href="" ><i  class="fas fa-book"></i> Dashboard</p></a>
+            <a href=""> <i class="fas fa-power-off"></i> Logout</p> </a>
+            </div>
+
+            <div class="topnav-right head2">
+                 <a href="" class="head2"><i class="fas fa-satellite-dish i1"></i></a>
+                 <a href="" class="head2"><i class="fas fa-bell i2 "></i></a>
+                 <a href="" class="head2"><i class="fa fa-user i3 fa-2x" aria-hidden="true"></i> <i class="fas fa-angle-down i3"></i></a>
+                 <h6>NELLY YO <br>nellyo123@gmail.com</h6>
+            </div>
+            <div class="float-end"><a href=""><p class="ic"></p></a></div>
+
+           
+        <h3 class="logosb navbar-brand mx-auto ">UNIABUJA</h3>
+
+        
+            
+    </nav>
+
+    <!--side-bar-->
+    <div id="menu" class="side-nav shadow bg-light">
+        <h3 class="logos">UNIABUJA</h3>
+        <a href="#" class="btn-close mt-3" onclick="closeSlideMenu()"></a>
+        <h3 class="h3side mt-3">STUDENT MENU</h3>
+        <ul>
+            <a href="#">Payment Section</a>
+            <a href="#">ReQuery Payment</a>
+            <a href="#">eVoting Plartform</a>
+            <a href="#">Lecturer Class Attedance</a>
+            <a href="#">Hostel Allocatoin</a>
+            <a href="#">Course Registration</a>
+            <a href="#">Add and Drop Form</a>
+            </ul>
+    </div>
+
+    <!--main-->
+    <div id="main" class="p-3">
+        <div class="uga "></div>
+        <div class="ugb mx-auto mt-1"></div>
+        <div class="row">
+            <div class="col-md-6 py-2">
+                <div class="col-12">
+                    <div class="card shadow p-3 card2">
+                          <h5 class="h5c"><i class="fas fa-user i4"></i> Basic Profile</h5><hr>
+                          <table style="width:100%">
+                            <tr>
+                            <th>Reg/Matriculation No:</th>
+                            <td>// // // </td>
+                            </tr>
+                            <tr>
+                            <th>Full-Name:</th>
+                            <td>// // //</td>
+                            </tr>
+                            <tr>
+                            <th>Faculty:</th>
+                            <td>// // //</td>
+                            </tr>
+                            <tr>
+                            <th>Department:</th>
+                            <td>// // //</td>
+                            </tr>
+                            <tr>
+                            <th>Programme:</th>
+                            <td>// // //</td>
+                            </tr>
+                            <tr>
+                            <th>Current Level:</th>
+                            <td>// // //</td>
+                            </tr>
+                            </table> <hr>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="col-12 py-2">
+                    <div class="card shadow p-3 card2">
+                        <h5 class="h5c"><i class="fas fa-barcode i4"></i> School Charges And Current Registration Status</h5><hr>
+                        <table style="width:100%" class="table1">
+                            <tr class="table1 bg-light">
+                            <th class="table1 p-1">Current Session:</th>
+                            <td class="p-1">2021/2022</td>
+                            </tr> 
+                            <tr>
+                            <th class="table1 p-1">School Charges:</th>
+                            <td class="p-1">// // //</td>
+                            </tr>
+                        </table><hr>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 py-2">
+                <div class="col-12">
+                    <div class="card shadow p-3 card2">
+                        <h5 class="h5c"><i class="fas fa-lock i4"></i> Password Management</h5><hr>
+                        <div class="table2 p-2">
+                        <table style="width:100%" class="">
+                            <tr class="table1">
+                            <th class=" p-2">Old Password:</th>
+                            <td class="p-2"><input type="text" class="input2"></td>
+                            </tr>
+                            <tr class="table1">
+                            <th class=" p-2">New Password:</th>
+                            <td class="p-2"><input type="text" class="input2"></td>
+                            </tr>
+                            <tr class="table1">
+                            <th class=" p-2">Confirm Password:</th>
+                            <td class="p-2"><input type="text" class="input2"></td>
+                            </tr>
+                        </table>
+                        <div class="row d-flex p-2 mx-auto">
+                            <a href="#" class="row2 nav-link btn btn-success">Change Password</a>
+                            <a href="#" class="row2 nav-link btn btn-success">Clear</a>
+                        </div>
+                        </div> <hr>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="col-12  py-2">
+                    <div class="card shadow p-3 card2">
+                        <h5 class="h5c"><i class="fas fa-upload i5"></i> Passport/Signature Upload <span class="fm">(Only .Jpg File Format)</span></h5><hr>
+                        <div class="table2 p-2">
+                            <table style="width:100%" class="">
+                            </tr>
+                            <tr class="table1">
+                            <th class=" p-2">File Type</th>
+                            <td class="p-2">
+                                <select id="file" name="---">
+                                    <option value="australia">---</option>
+                                    <option value="canada">Passport</option>
+                                    <option value="usa">Signature</option>
+                                  </select>
+                            </td>
+                            </tr>
+                            </tr>
+                            <tr class="table1">
+                            <th class=" p-2">Select File </th>
+                            <td class="p-2"><a href="" type="button" class="btn btn-secondary">Choose File</a> No File Chosen</td>
+                            </tr> 
+                            </table>
+                            <iframe class="card card3 mt-1 mx-auto" src="">
+
+                            </iframe>
+                        </div> <hr>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 py-2">
+                <div class="col-12">
+                    <div class="card shadow p-3 card2">
+                        <h5 class="h5c"><i class="fas fa-barcode i4"></i> Print Course Registration</h5><hr>
+                        <table style="width:100%" class="">
+                            <tr class="table1">
+                            <th class=" p-2">Old Password</th>
+                            <td class="p-2">
+                                <select id="file" name="">
+                                    <option value="australia">2021/2022||400L</option>
+                                    <option value="canada">2020/2021||300L</option>
+                                    <option value="usa">2019/2020||200L</option>
+                                    <option value="usa">2018/2019||100L</option>
+                                </select>
+                            </td>
+                            </tr>
+                        </table><hr>
+                        <a href="#" class="row2 nav-link btn btn-success mx-auto">submit</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="col-12  py-2">
+                    <div class="card shadow p-3 card2">
+                        <h5 class="h5c"><i class="fas fa-barcode i4"></i> Chech Your Result</h5><hr>
+                        <table style="width:100%" class="">
+                            <tr class="table1">
+                            <th class=" p-2">Type Of Result</th>
+                            <td class="p-2">
+                                <select id="file" name="">
+                                    <option value="australia">---</option>
+                                    <option value="australia">Sessional</option>
+                                    <option value="canada">Semester</option>
+                                </select>
+                            </td>
+                            </tr>
+                        </table><hr>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 py-2">
+                <div class="col-12">
+                    <div class="card shadow p-3 card2">
+                        <h5 class="h5c"><i class="fas fa-print i5"></i> List Of Payment Receipts</h5><hr>
+                        <p class="table2 p-2 pp">Click on any of the Payment Description below to generate Receipt</p> <hr>
+                        <table id="">
+                            <tr class="">
+                              <th class="p-2">S/No</th>
+                              <th class="p-2">Academic Session</th>
+                              <th class="p-2">Payment Description</th>
+                              <th class="p-2">Level</th>
+                            </tr>
+                            <tr class="bg-light table1">
+                                <td class="p-2">1</td>
+                                <td class="p-2">2018/2019</td>
+                                <td class="p-2"><p class="tp bg-success">Add and Drop Form</p></td>
+                                <td class="p-2">100</td>
+                              </tr>
+                              <tr class="table1">
+                                <td class="p-2">2</td>
+                                <td class="p-2">2019/2020</td>
+                                <td class="p-2"><p class="tp bg-success">School Charges</p></td>
+                                <td class="p-2">100</td>
+                              </tr>
+                              <tr class="bg-light table1">
+                                <td class="p-2">3</td>
+                                <td class="p-2">2020/2021</td>
+                                <td class="p-2"><p class="tp bg-success">School Charges</p></td>
+                                <td class="p-2">100</td>
+                              </tr>
+                              <tr class="table1">
+                                <td class="p-2">4</td>
+                                <td class="p-2">2021/2022</td>
+                                <td class="p-2"><p class="tp bg-success">School Charges</p></td>
+                                <td class="p-2">100</td>
+                              </tr>
+                              <tr class="bg-light table1">
+                                <td class="p-2">5</td>
+                                <td class="p-2">2022/2023</td>
+                                <td class="p-2"><p class="tp bg-success">School Charges</p></td>
+                                <td class="p-2">100</td>
+                              </tr>
+                              <tr class="table1">
+                                <td class="p-2">6</td>
+                                <td class="p-2">2023/2024</td>
+                                <td class="p-2"><p class="tp bg-success">School Charges</p></td>
+                                <td class="p-2">100</td>
+                              </tr>
+                        </table> <hr>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="col-12  py-2">
+                    <div class="card shadow p-3 card2">
+                        <h5 class="h5c"><i class="fas fa-barcode i5"></i> Email And Phone No Update</h5><hr>
+                        <div class="table2 p-2">
+                            <table style="width:100%" class="">
+                                <tr class="table1">
+                                <th class=" p-2">Email</th>
+                                <td class="p-2"><input type="text" class="input2"></td>
+                                </tr>
+                                <tr class="table1">
+                                <th class=" p-2">Phone No</th>
+                                <td class="p-2"><input type="text" class="input2"></td>
+                                </tr>
+                            </table>
+                                <a href="#" class="row2 nav-link btn btn-success mx-auto">Update</a>
+                            </div> <hr>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!--last part-->
+    <div class="bg-light p-5">
+        <p class="pp float-end">© 2022 . University of Abuja. All rights reserved.</p>
+    </div>
+    <!--java-script-->
+     <script>
+        function openSlideMenu(){
+            document.getElementById('menu').style.width = '300px';
+
+        }
+
+        function closeSlideMenu(){
+            document.getElementById('menu').style.width = '0';
+
+        }
+     </script>   
+</body>
+</html>
